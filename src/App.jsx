@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { FaTrash } from "react-icons/fa";
 import { RiEditBoxLine } from "react-icons/ri";
 import Swal from "sweetalert2";
-import "./APP.CSS";
+import "./App.CSS";
 
 export default function App() {
   const nameInput = useRef();
